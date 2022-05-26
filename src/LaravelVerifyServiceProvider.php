@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikajorjika\LaravelVerify;
+namespace Redberry\LaravelVerify;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Nikajorjika\LaravelVerify\Commands\LaravelVerifyCommand;
+use Redberry\LaravelVerify\Commands\LaravelVerifyCommand;
 
 class LaravelVerifyServiceProvider extends PackageServiceProvider
 {

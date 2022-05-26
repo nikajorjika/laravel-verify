@@ -1,11 +1,11 @@
 <?php
 
-namespace Nikajorjika\LaravelVerify\Facades;
+namespace Redberry\LaravelVerify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Nikajorjika\LaravelVerify\LaravelVerify
+ * @see \Redberry\LaravelVerify\LaravelVerify
  */
 class LaravelVerify extends Facade
 {

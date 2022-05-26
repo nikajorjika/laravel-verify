@@ -8,10 +8,11 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('laravel_verify_table', function (Blueprint $table) {
+        Schema::create('veirfication_codes', function (Blueprint $table) {
             $table->id();
 
-            // add fields
+            $table->string('email');
+            $table->string('code');
 
             $table->timestamps();
         });

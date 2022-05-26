@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikajorjika\LaravelVerify\Commands;
+namespace Redberry\LaravelVerify\Commands;
 
 use Illuminate\Console\Command;
 

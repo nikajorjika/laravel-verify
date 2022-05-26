@@ -1,5 +1,5 @@
 <?php
 
-use Nikajorjika\LaravelVerify\Tests\TestCase;
+use Redberry\LaravelVerify\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

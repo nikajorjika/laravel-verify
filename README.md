@@ -55,8 +55,8 @@ php artisan vendor:publish --tag="laravel-verify-views"
 ## Usage
 
 ```php
-$laravelVerify = new Nikajorjika\LaravelVerify();
-echo $laravelVerify->echoPhrase('Hello, Nikajorjika!');
+$laravelVerify = new Redberry\LaravelVerify();
+echo $laravelVerify->echoPhrase('Hello, Redberry!');
 ```
 
 ## Testing

@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikajorjika\LaravelVerify\Tests;
+namespace Redberry\LaravelVerify\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Nikajorjika\LaravelVerify\LaravelVerifyServiceProvider;
+use Redberry\LaravelVerify\LaravelVerifyServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Nikajorjika\\LaravelVerify\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'Redberry\\LaravelVerify\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

@@ -1,5 +1,5 @@
 <?php
-// config for Nikajorjika/LaravelVerify
+// config for Redberry/LaravelVerify
 return [
 
 ];

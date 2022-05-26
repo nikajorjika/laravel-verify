@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikajorjika\LaravelVerify;
+namespace Redberry\LaravelVerify;
 
 class LaravelVerify
 {

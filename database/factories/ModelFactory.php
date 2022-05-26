@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikajorjika\LaravelVerify\Database\Factories;
+namespace Redberry\LaravelVerify\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

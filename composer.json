@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Nikajorjika\\LaravelVerify\\": "src",
-            "Nikajorjika\\LaravelVerify\\Database\\Factories\\": "database/factories"
+            "Redberry\\LaravelVerify\\": "src",
+            "Redberry\\LaravelVerify\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nikajorjika\\LaravelVerify\\Tests\\": "tests"
+            "Redberry\\LaravelVerify\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -60,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nikajorjika\\LaravelVerify\\LaravelVerifyServiceProvider"
+                "Redberry\\LaravelVerify\\LaravelVerifyServiceProvider"
             ],
             "aliases": {
-                "LaravelVerify": "Nikajorjika\\LaravelVerify\\Facades\\LaravelVerify"
+                "LaravelVerify": "Redberry\\LaravelVerify\\Facades\\LaravelVerify"
             }
         }
     },
