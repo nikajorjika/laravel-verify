@@ -59,7 +59,7 @@ class VerifyEmailViaCode extends Notification
      */
     protected function buildMailMessage($code)
     {
-        return (new MailMessage)
+        return (new MailMessage())
             ->subject(Lang::get('Verify Email Address'))
             ->line(Lang::get('To verify your email address Copy and Paste this code:'))
             ->line($code)

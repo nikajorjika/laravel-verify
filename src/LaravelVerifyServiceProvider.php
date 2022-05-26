@@ -2,9 +2,9 @@
 
 namespace Redberry\LaravelVerify;
 
+use Redberry\LaravelVerify\Commands\LaravelVerifyCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Redberry\LaravelVerify\Commands\LaravelVerifyCommand;
 
 class LaravelVerifyServiceProvider extends PackageServiceProvider
 {

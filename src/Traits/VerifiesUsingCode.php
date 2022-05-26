@@ -13,7 +13,7 @@ trait VerifiesUsingCode
      */
     public function hasVerifiedEmail()
     {
-        return !is_null($this->email_verified_at);
+        return ! is_null($this->email_verified_at);
     }
 
     /**
@@ -35,7 +35,7 @@ trait VerifiesUsingCode
      */
     public function sendEmailVerificationNotification()
     {
-        $this->notify(new VerifyEmailViaCode);
+        $this->notify(new VerifyEmailViaCode());
     }
 
     /**
